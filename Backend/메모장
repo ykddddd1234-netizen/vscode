@@ -1,0 +1,3 @@
+Mysql 실행 코드
+mysql -h mysql-26c4ce1a-ykddddd1234-6fa9.l.aivencloud.com -P 14030 -u avnadmin -p --ssl-ca=ca.pem
+
