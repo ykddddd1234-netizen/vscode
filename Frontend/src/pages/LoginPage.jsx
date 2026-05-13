@@ -4,13 +4,14 @@ import axios from 'axios';
 import '../App.css';
 
 function LoginPage() {
-	const navigate = useNavigate();
+  const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const API_URL = import.meta.env.VITE_API_URL
 
   const handleLogin = async () => {
     try {
-      const res = await axios.post('https://fuzzy-space-waddle-jr594g5q76vq3vqg-3000.app.github.dev/login', {
+      const res = await axios.post(`${API_URL}/login`, {
         email,
         password
       });

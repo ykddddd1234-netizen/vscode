@@ -12,7 +12,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-  origin: "https://fuzzy-space-waddle-jr594g5q76vq3vqg-5173.app.github.dev",
+  origin: true,
   credentials: true
 }));
 
@@ -1874,9 +1874,17 @@ app.delete('/guard-holidays/:id', authMiddleware, adminOnly, async (req, res) =>
 })
 
 //listening at 3000
-app.listen(3000, () => {
-  console.log('🚀 서버 실행 중');
-});
+const PORT =
+  process.env.PORT || 3000
+
+
+app.listen(PORT, () => {
+
+  console.log(
+
+    `🚀 서버 실행 중: ${PORT}`
+  )
+})
 
 // ========================
 // Generate Guard Schedule

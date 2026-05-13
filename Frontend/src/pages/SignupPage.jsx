@@ -11,10 +11,11 @@ function SignupPage() {
   const [class_number, setclass_number] = useState('');
   const [unit, setUnit] = useState('');
   const navigate = useNavigate();
+  const API_URL = import.meta.env.VITE_API_URL
 
   const handleSignup = async () => {
     try {
-      await axios.post('https://fuzzy-space-waddle-jr594g5q76vq3vqg-3000.app.github.dev/signup', {
+      await axios.post(`${API_URL}/signup`, {
 		name,
         email,
         password,

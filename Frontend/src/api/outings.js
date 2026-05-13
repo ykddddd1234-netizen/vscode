@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://fuzzy-space-waddle-jr594g5q76vq3vqg-3000.app.github.dev';
+const API_URL = import.meta.env.VITE_API_URL
 
 // Leave schedule Check
 export const getOutings = (token) => {
