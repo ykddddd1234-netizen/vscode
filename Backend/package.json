@@ -118,7 +118,6 @@
     "@vscode/windows-mutex": "^0.5.0",
     "@vscode/windows-process-tree": "^0.7.0",
     "@vscode/windows-registry": "^1.2.0",
-<<<<<<< HEAD:package.json
     "@xterm/addon-clipboard": "^0.3.0-beta.213",
     "@xterm/addon-image": "^0.10.0-beta.213",
     "@xterm/addon-ligatures": "^0.11.0-beta.213",
@@ -129,19 +128,6 @@
     "@xterm/addon-webgl": "^0.20.0-beta.212",
     "@xterm/headless": "^6.1.0-beta.213",
     "@xterm/xterm": "^6.1.0-beta.213",
-=======
-    "@xterm/addon-clipboard": "^0.3.0-beta.197",
-    "@xterm/addon-image": "^0.10.0-beta.197",
-    "@xterm/addon-ligatures": "^0.11.0-beta.197",
-    "@xterm/addon-progress": "^0.3.0-beta.197",
-    "@xterm/addon-search": "^0.17.0-beta.197",
-    "@xterm/addon-serialize": "^0.15.0-beta.197",
-    "@xterm/addon-unicode11": "^0.10.0-beta.197",
-    "@xterm/addon-webgl": "^0.20.0-beta.196",
-    "@xterm/headless": "^6.1.0-beta.197",
-    "@xterm/xterm": "^6.1.0-beta.197",
-    "bcrypt": "^6.0.0",
->>>>>>> 3e0243dc9d7 (deploy ready):Backend/package.json
     "chrome-remote-interface": "^0.33.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
